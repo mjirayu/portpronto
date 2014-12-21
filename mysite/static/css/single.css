@@ -1,0 +1,57 @@
+body {
+	    padding: 0;
+	    margin: 0;
+}
+
+#header {
+    background-image: url(../img/bg2.jpg);
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.topic {
+    color: white;
+    font-size: 4em;
+    clear: both;
+    min-height: 300px;
+    padding: 2em 0 2em 0;
+}
+
+#content {
+    background-image: url(../img/single_bg.jpg);
+    padding: 2em 0 2em 0;
+}
+
+.years-single {
+    color: #BEBEBE;
+    font-size: 1.2em;
+}
+
+.topic-content {} .image-single {
+    width: 100%;
+}
+
+.image-single img {
+	margin:auto;
+    display:block;
+    max-width: 720px;
+}
+
+.description {
+    text-indent: 3em;
+    text-align: justify;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+
+.div-description {
+    margin: 1em 20% 0 20%;
+}
+
+.btn-single {
+    margin: 2em 0 2em 0;
+    margin-right: 15em;
+    width: 6em;
+}

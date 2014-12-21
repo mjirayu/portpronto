@@ -1,0 +1,30 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>For Pronto Marketing</title>
+	<link rel="stylesheet" href="{% static 'dist/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/single.css' %}">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row" id="header">
+			<h1 class="text-center topic">For Pronto Marketing</h1>
+		</div>
+	</div>
+
+	<section id="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					{% block description %}{% endblock %}
+					<a href="{% url 'index' %}" class="pull-right btn btn-success btn-single">Back</a>
+				</div>
+			</div>
+        </div>
+	</section>
+
+</body>
+</html>

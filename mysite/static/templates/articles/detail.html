@@ -1,0 +1,12 @@
+{% extends 'single.html' %}
+
+{% block description %}
+<h1 class="text-center topic-content">{{ article.title }}</h1>
+<p class="text-center years-single">Created by Admin In {{article.year}}</p>
+<div class="image-single">
+    <img src="../../{{ article.image }}" alt="{{ article.title }}" align="center">
+</div>
+<div class="div-description">
+    <p class="description">{{ article.description }}</p>
+</div>
+{% endblock %}
